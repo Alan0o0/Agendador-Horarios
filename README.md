@@ -54,7 +54,7 @@ Foi desenvolvido com foco em prática de backend com Spring Boot e Arquitetura e
 | PUT    | `/agendamentos?cliente=xxx?dataHoraAgendamento=xxx` | Atualiza agendamento conforme os parametros|
 | DELETE | `/agendamentos?cliente=xxx?dataHoraAgendamento=xxx` | Remove agendamento |
 
----
+```
 ## 🧱 Estrutura do projeto
 
 src/
@@ -69,8 +69,8 @@ src/
 │
 └── resources/
 └── application.properties
----
 
+```
 ## ⚙️ Como executar o projeto
 
 ### 🔧 Pré-requisitos
