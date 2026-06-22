@@ -58,18 +58,17 @@ Foi desenvolvido com foco em prática de backend com Spring Boot e Arquitetura e
 ## 🧱 Estrutura do projeto
 
 src/
-├── main/
-│ ├── java/
-│ │ └── com.projeto.agendador_horarios
-│ │ ├── controller
-│ │ ├── infrastructure
-│ │ │ ├── entity
-│ │ │ └── repository
-│ │ ├── service
-│ └── resources/
-│ ├── application.properties
-
-
+└── main/
+├── java/
+│ └── com.projeto.agendador_horarios/
+│ ├── controller/
+│ ├── service/
+│ └── infrastructure/
+│     ├── entity/
+│     └── repository/
+│
+└── resources/
+└── application.properties
 ---
 
 ## ⚙️ Como executar o projeto
@@ -94,4 +93,4 @@ mvn spring-boot:run
 
 #Sobre o banco de dados
 
-O projeto utiliza banco de dados em memória H2 então os dados são temporarios todos são perdidos ao reiniciar a aplicacão, pode ser testado com H2 Console ou Postman.
+#O projeto utiliza banco de dados em memória H2 então os dados são temporarios todos são perdidos ao reiniciar a aplicacão, pode ser testado com H2 Console ou Postman.
